@@ -18,17 +18,17 @@ Calling the function and printing the number of words.
 ```
 #Developed By: JAYASRI DODDA
 #Register No: 212222240028
-n=input('Enter File name: ')
-wordslen=0
-with open(n,'r') as f:
-    for line in f:
-        words=line.split()
-        wordslen+=len(words)
-print("Number of wordds:",wordslen)
+
+num_word=0
+with open("My File.txt","r")as file1:
+    for i in file1:
+        word=i.split()
+        num_word+=len(word)
+print("number of words {}".format(num_word))
 ```
 ### OUTPUT:
+![Screenshot (66)](https://github.com/jayasridodda/Word-count/assets/123259278/8359657a-a30f-48e5-9ca4-32ebab30b643)
 
-![Screenshot (44)](https://github.com/jayasridodda/Word-count/assets/123259278/e92b5cfe-94b1-42b4-a0cf-f844095552c9)
 
 
 ## RESULT:
