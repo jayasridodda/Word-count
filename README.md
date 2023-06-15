@@ -31,19 +31,17 @@ Program to count the number of words in a file
 Developed by: JAYASRI DODDA
 Register Number: 212222240028
 
-fp=input("Enter the file name:")
-words=0
-with open(fp,'r') as f:
-  for line in f:
-    word=line.split()
-    words+=len(word)
-print("Number of words:",words)
+n=input('Enter File name: ')
+wordslen=0
+with open(n,'r') as f:
+    for line in f:
+        words=line.split()
+        wordslen+=len(words)
+print("Number of wordds:",wordslen)
 ```
 
 ### OUTPUT:
-![PYTHON 5a](https://github.com/Nandhinijaya/Word-count/assets/121998147/b4a4074d-9275-4e72-92d5-60624d3fb30a)
-
-![5a out](https://github.com/Nandhinijaya/Word-count/assets/121998147/a9892cb2-5e5e-4f2c-b107-8a51f1afb61b)
+![output](https://github.com/abinayasangeetha/Word-count/assets/119393675/4428cedd-a1bb-411d-ae08-e98310ee61dd)
 
 
 ## RESULT:
